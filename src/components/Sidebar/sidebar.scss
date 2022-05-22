@@ -1,0 +1,36 @@
+.sidebarContainer{
+    position: absolute;
+    height: 100vh;
+    width: 280px;
+    height: calc(100vh - 50px);
+    overflow: hidden;
+    position: sticky;
+    top: 50px;
+    padding-top: 20px;
+    .middle{
+        &:hover{
+            background-color: #d2e3fc;
+        }
+    }
+}
+
+.item{
+    width: 100%;
+    height: 40px;
+        padding-top: 8px;
+    border-radius:  0 20px 20px 0;
+    font-weight: 500;
+    font-size: 15px;
+    padding-left: 40px;
+    cursor: pointer;
+    transition: all .5s ease-in;
+    .icon{
+        margin-right: 15px;
+    }
+
+    &:hover{
+        background-color: #d2e3fc;
+    }
+}
+
+

@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "C_Cpp.autoAddFileAssociations": false
+}
